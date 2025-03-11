@@ -17,3 +17,7 @@ spring:
     console:
       enabled: true
 
+jwt:
+  issuer: jwtuser@gmail.com
+  secret_key: study_springboot
+
