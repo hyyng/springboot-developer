@@ -17,6 +17,17 @@ spring:
     console:
       enabled: true
 
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id:
+            client-secret:
+            scope:
+              - email
+              - profile
+
 jwt:
   issuer: jwtuser@gmail.com
   secret_key: study_springboot
